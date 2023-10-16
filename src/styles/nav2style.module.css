@@ -1,0 +1,63 @@
+.siteLogo {
+  width: 15rem;
+  height: 6.25rem;
+  cursor: pointer;
+}
+
+.stickyNav {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-color-white);
+  z-index: 10;
+  box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.navElements {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+}
+
+.navElements ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navElements li {
+  padding-left: 3rem;
+  font-size: 1.063rem;
+  font-weight: bolder;
+  font-family: "GE SS Two Light";
+}
+
+.nav-items-container {
+  display: flex;
+}
+
+.navElements .homeMainPage {
+  color: var(--color-color-purple);
+}
+
+.nav-toggle-button {
+  display: none;
+  margin-left: auto;
+}
+
+.nav-items-container.hidden {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.linkblue {
+  text-decoration: none;
+  color: var(--color-color-black);
+  font-family: "GE SS Two bold";
+}
+
+.active-link {
+  color: var(--color-color-purple);
+}
+
+

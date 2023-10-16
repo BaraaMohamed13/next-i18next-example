@@ -1,0 +1,64 @@
+
+
+.firstNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3rem;
+  background-color: var(--color-color-grey);
+  color: var(--color-color-textcolor);
+  padding: 0 1rem;
+}.locAndPhone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: max-content;
+}
+
+.oneRow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 2.2rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.telNum,
+.numberWhats {
+  text-decoration: none;
+  color: var(--color-color-textcolor);
+}
+
+.firstNav i {
+  padding-left: 0.5rem;
+  color: var(--color-color-purple);
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+}
+.phoneNumber .num-and-icon {
+  width: max-content;
+  height: max-content;
+}
+.phoneNumber i {
+  padding-left: 0.5rem;
+  color: var(--color-color-purple);
+}
+
+.hoverPurple:hover {
+  color: var(--color-color-purple);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.switchLanguageButton {
+  padding-left: 2rem;
+  border: none;
+  cursor: pointer;
+  color: var(--color-color-purple);
+  font-weight: bold;
+}
